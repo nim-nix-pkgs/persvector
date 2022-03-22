@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-persvector-master.flake = false;
+  inputs.src-persvector-master.ref   = "refs/heads/master";
   inputs.src-persvector-master.owner = "PMunch";
-  inputs.src-persvector-master.ref   = "master";
   inputs.src-persvector-master.repo  = "nim-persistent-vector";
   inputs.src-persvector-master.type  = "github";
   
