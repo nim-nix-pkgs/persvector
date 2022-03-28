@@ -11,6 +11,7 @@
   inputs.src-persvector-master.ref   = "refs/heads/master";
   inputs.src-persvector-master.owner = "PMunch";
   inputs.src-persvector-master.repo  = "nim-persistent-vector";
+  inputs.src-persvector-master.dir   = "";
   inputs.src-persvector-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
